@@ -21,23 +21,26 @@ The **Advanced Nmap Scanning Utility** is designed to simplify the use of Nmap b
 - **Firewall/IDS Evasion:** Cloak scans with decoys, spoof MAC, and more.
 - **Output Management:** Save scans in multiple formats.
 - **Miscellaneous Options:** IPv6 scanning, traceroute, and more.
+
 ## Clone
 1. Clone this repository to your local system:
 ```bash
-git clone <repository_url> cd <repository_name>
+git clone https://github.com/Muhammad-Hassan31144/nmap-masker
+cd nmap-masker
 ```
 
 2. Make the script executable:
 
  ```bash
- chmod +x nmap_script.sh
+ chmod +x nmap_masker.sh
  ```
  
 3. Run the script:
 ```bash
-./nmap_script.sh
+./nmap_masker.sh
 ```
 4. Follow the interactive menu to choose your scan options.
+
 ## Example Workflow
 
 1. Select your scan category (e.g., **Target Specification**).
@@ -47,7 +50,6 @@ git clone <repository_url> cd <repository_name>
 5. Review your options and execute the scan.
 
 ## Usage/Examples
-
 
 Here’s a quick example of how the script simplifies scanning:
 
@@ -83,7 +85,6 @@ The script automatically constructs and runs the equivalent command!
 ## Disclaimer
 This script is intended for ethical use only. Always obtain proper authorization before scanning any network or device.
 ## License
-License
 
 This project is licensed under the MIT License. See the LICENSE file for details
 [MIT](https://choosealicense.com/licenses/mit/)
